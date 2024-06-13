@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+
+  .container{
+    font-family: poppins;
+  }
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+ 
+  .navlist ul{
+    width: 100%;
+    display: flex;
+  }
+  .navlist ul li{
+    list-style: none;
+  }
+  .navlist ul li a{
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid white;
+    margin: 0 0.2rem;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+  }
+ .navlist ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+ }
+ .scrollCss{
+  background-color: white;
+    color: black !important;
+    border-radius: 5px;
+ }
+ .home{
+    width: 100%;
+    height: 90vh;
+  margin: 10vh 0;
+    background-color: greenyellow;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+ }
+ .homeId{
+  background-color: black;
+  height: 90vh;
+  width: 100%;
+    height: 90vh;
+  margin: 10vh 0;
+ }
+ .home p{
+    font-weight:500;
+    width: 80%;
+    font-size: 1.5rem;
+ }
